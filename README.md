@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/license/erinknapp/readme-generator?style=for-the-badge&label=MIT">
+<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=MIT">
 
   # readme-generator
 
@@ -8,14 +8,14 @@
 
   ## Table of Contents
 
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Credits](#credits)
-  *[License](#license)
-  *[Badges](#badges)
-  *[Contributing](#contributing)
-  *[Questions](#questions)
-  *[Tests](#tests)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Badges](#badges)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  * [Tests](#tests)
 
   ## Installation
 
