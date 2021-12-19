@@ -9,19 +9,12 @@
   ## Table of Contents
 
   *[Installation](#installation)
-  
   *[Usage](#usage)
-  
   *[Credits](#credits)
-  
   *[License](#license)
-  
   *[Badges](#badges)
-  
-  *[Contributing](#constributing)
-  
+  *[Contributing](#contributing)
   *[Questions](#questions)
-  
   *[Tests](#tests)
 
   ## Installation
