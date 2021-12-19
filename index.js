@@ -101,11 +101,30 @@ const promptUser = (questions) => {
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
-
+const writeFile = (projectMarkdown, project) => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile(`./dist/${project[0].projectTitle}.md`, projectMarkdown, err => {
+            if(err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+};
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    promptUser()
+    .then(questions => {
+        let projectMarkdown = generateMarkdown(questions)
+        return writeFile(projectMarkdown, questions);
+    })
+}
 
 
 
