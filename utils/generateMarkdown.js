@@ -5,13 +5,13 @@ function renderLicenseBadge(license) {
     return ``
   }
   if(license[0] === 'MIT License'){
-    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=MIT">`
+    return `<img src="<https://img.shields.io/badge/License-MIT-blue>">`
   }
   if(license[0] === 'GNU GPLv3'){
-    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=GNU%20GPLv3">`
+    return `<img src="https://img.shields.io/badge/License-GNU%20GPLv3-blue">`
   }
   if(license[0] === 'Apache License'){
-    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=Apache%20License">`
+    return `<https://img.shields.io/badge/License-Apache-blue>`
   } 
   if(license[0] === 'none'){
     return ``
