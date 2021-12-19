@@ -5,14 +5,14 @@ function renderLicenseBadge(license) {
     return ``
   }
   if(license[0] === 'MIT License'){
-    return `<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=MIT">`
+    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=MIT">`
   }
   if(license[0] === 'GNU GPLv3'){
-    return `<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=GNU%20GPLv3">`
+    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=GNU%20GPLv3">`
   }
   if(license[0] === 'Apache License'){
-    return `<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=Apache%20License">`
-  }
+    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=Apache%20License">`
+  } 
   if(license[0] === 'none'){
     return ``
   }
@@ -48,13 +48,12 @@ function renderLicenseSection(license) {
   if(!license){
     return ``
   }
-  if (license[0] === 'none'){
+  if(license[0] === 'none'){
     return ``
   }
   return `
-  ## License
-  
-  ${renderLicenseLink(license)}
+## License
+${renderLicenseLink(license)}
   `
 }
 
@@ -72,14 +71,14 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Credits](#credits)
-  *[License](#license)
-  *[Badges](#badges)
-  *[Contributing](#constributing)
-  *[Questions](#questions)
-  *[Tests](#tests)
+  * Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Badges](#badges)
+  * [Contributing](#constributing)
+  * [Questions](#questions)
+  * [Tests](#tests)
 
   ## Installation
 
@@ -92,6 +91,12 @@ function generateMarkdown(data) {
   ## Credits
 
   ${data[0].projectCredits}
+
+  ${renderLicenseSection(data[0].license)}
+
+  ## Badges
+  
+  ${renderLicenseBadge(data[0].license)}
 
   ## Questions
 
