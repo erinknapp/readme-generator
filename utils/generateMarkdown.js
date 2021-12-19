@@ -5,13 +5,13 @@ function renderLicenseBadge(license) {
     return ``
   }
   if(license[0] === 'MIT License'){
-    return //shields.io badge here
+    return `<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=MIT">`
   }
   if(license[0] === 'GNU GPLv3'){
-    return //shields.io badge here
+    return `<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=GNU%20GPLv3">`
   }
   if(license[0] === 'Apache License'){
-    return //shields.io badge here
+    return `<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=Apache%20License">`
   }
   if(license[0] === 'none'){
     return ``
