@@ -1,5 +1,4 @@
-
-  <img src="https://img.shields.io/badge/License-MIT-blue">
+<img src="https://img.shields.io/badge/License-MIT-blue">
 
   # readme-generator
 
@@ -9,14 +8,14 @@
 
   ## Table of Contents
 
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Credits](#credits)
-  *[License](#license)
-  *[Badges](#badges)
-  *[Contributing](#constributing)
-  *[Questions](#questions)
-  *[Tests](#tests)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Badges](#badges)
+  * [Contributing](#constributing)
+  * [Questions](#questions)
+  * [Tests](#tests)
 
   ## Installation
 
@@ -25,10 +24,17 @@
   ## Usage
 
   Using the CLI, run the app with the 'npm index' command. Answer the question prompts. This readme is an example of the project output.
-
+  ![user-input](https://i.imgur.com/YIIpPSR.png)
+  
+  Short video:
+  ![Example of app in use](https://i.imgur.com/R1sfV16.gif)
+  
   ## Credits
 
   None
+
+  ## License
+  Mit License: <img src="https://img.shields.io/badge/License-MIT-blue">
 
   ## Questions
 
