@@ -9,14 +9,14 @@
 
   ## Table of Contents
 
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Credits](#credits)
-  *[License](#license)
-  *[Badges](#badges)
-  *[Contributing](#constributing)
-  *[Questions](#questions)
-  *[Tests](#tests)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Badges](#badges)
+  * [Contributing](#constributing)
+  * [Questions](#questions)
+  * [Tests](#tests)
 
   ## Installation
 
