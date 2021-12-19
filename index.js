@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
-const fs = reqiure('fs');
+const fs = require('fs');
 const inquirer = require('inquirer');
+
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -58,7 +59,7 @@ const promptUser = (questions) => {
         },
         {
             type: 'checkbox',
-            name: 'projectLicense',
+            name: 'license',
             message: 'What kind of license does this project have? (Check only 1 (one))',
             choices: ['MIT License', 'GNU GPLv3','Apache License', 'none']
         },
