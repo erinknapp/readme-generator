@@ -1,6 +1,6 @@
 
 
-  undefined
+  <img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=MIT">
 
   # Readme Generator
 
@@ -10,14 +10,14 @@
 
   ## Table of Contents
 
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Credits](#credits)
-  *[License](#license)
-  *[Badges](#badges)
-  *[Contributing](#constributing)
-  *[Questions](#questions)
-  *[Tests](#tests)
+  * Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Badges](#badges)
+  * [Contributing](#constributing)
+  * [Questions](#questions)
+  * [Tests](#tests)
 
   ## Installation
 
@@ -29,7 +29,16 @@
 
   ## Credits
 
-  none
+  None
+
+  
+## License
+Mit License: <https://choosealicense.com/licenses/mit/>
+  
+
+  ## Badges
+  
+  <img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=MIT">
 
   ## Questions
 
