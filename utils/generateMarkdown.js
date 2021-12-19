@@ -1,21 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license[0] === 'none'){
-    return ``
-  }
-  if(license[0] === 'MIT License'){
-    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=MIT">`
-  }
-  if(license[0] === 'GNU GPLv3'){
-    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=GNU%20GPLv3">`
-  }
-  if(license[0] === 'Apache License'){
-    return `<img src="https://img.shields.io/github/license/erinknapp/readme-generator?color=blue&label=Apache%20License">`
-  } 
-  if(license[0] === 'none'){
-    return ``
-  }
+  
 }
 
 // TODO: Create a function that returns the license link
