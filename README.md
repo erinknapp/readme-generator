@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/license/erinkanpp/readme-generator-with-node?color=blue&label=MIT">
+<img src="https://img.shields.io/github/license/erinkanpp/readme-generator?color=blue&label=MIT">
 
   # readme-generator
 
